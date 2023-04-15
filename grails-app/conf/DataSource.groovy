@@ -22,7 +22,7 @@ environments {
 //            url = "jdbc:h2:mem:devDb;MVCC=TRUE;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE"
             pooled = true
             dbCreate = "update"
-            url = "jdbc:mysql://localhost:5555/restaurante"
+            url = "jdbc:mysql://127.0.0.1:5555/restaurante"
             driverClassName = "com.mysql.jdbc.Driver"
             username = "root"
             password = "12345"
